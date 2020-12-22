@@ -1,0 +1,153 @@
+8
+1       0       1       1       0       0       0       1
+Value of Collision Vector is: 177
+Value of children are: 
+Latency of edge to this child node is: 2
+Value of Collision Vector of child node is: 189
+Latency of edge to this child node is: 3
+Value of Collision Vector of child node is: 183
+Latency of edge to this child node is: 4
+Value of Collision Vector of child node is: 187
+Latency of edge to this child node is: 7
+Value of Collision Vector of child node is: 177
+8
+1       0       1       1       1       1       0       1
+Value of Collision Vector is: 189
+Value of children are: 
+Latency of edge to this child node is: 2
+Value of Collision Vector of child node is: 191
+Latency of edge to this child node is: 7
+Value of Collision Vector of child node is: 177
+8
+1       0       1       1       1       1       1       1
+Value of Collision Vector is: 191
+Value of children are: 
+Latency of edge to this child node is: 7
+Value of Collision Vector of child node is: 177
+8
+1       0       1       1       0       1       1       1
+Value of Collision Vector is: 183
+Value of children are: 
+Latency of edge to this child node is: 4
+Value of Collision Vector of child node is: 187
+Latency of edge to this child node is: 7
+Value of Collision Vector of child node is: 177
+8
+1       0       1       1       1       0       1       1
+Value of Collision Vector is: 187
+Value of children are: 
+Latency of edge to this child node is: 3
+Value of Collision Vector of child node is: 183
+Latency of edge to this child node is: 7
+Value of Collision Vector of child node is: 177
+---------------Iteration--------------
+Printing the current adjacencyList: 
+The current node is: 177
+The current node is: 189
+The current node is: 191
+The current node is: 183
+The current node is: 187
+A neighbour node of 177 is 189, and its HashValue is 1. Present in stack: 0
+It has to be pushed onto the stack, and a dfs has to be conducted
+A neighbour node of 189 is 191, and its HashValue is 2. Present in stack: 0
+It has to be pushed onto the stack, and a dfs has to be conducted
+A neighbour node of 191 is 177, and its HashValue is 0. Present in stack: 1
+it is a cycle!
+Printing Cycle:
+177 189 191 177 
+A neighbour node of 189 is 177, and its HashValue is 0. Present in stack: 1
+it is a cycle!
+Printing Cycle:
+177 189 177 
+A neighbour node of 177 is 183, and its HashValue is 3. Present in stack: 0
+It has to be pushed onto the stack, and a dfs has to be conducted
+A neighbour node of 183 is 187, and its HashValue is 4. Present in stack: 0
+It has to be pushed onto the stack, and a dfs has to be conducted
+A neighbour node of 187 is 183, and its HashValue is 3. Present in stack: 1
+It is already present in the stack
+A neighbour node of 187 is 177, and its HashValue is 0. Present in stack: 1
+it is a cycle!
+Printing Cycle:
+177 183 187 177 
+A neighbour node of 183 is 177, and its HashValue is 0. Present in stack: 1
+it is a cycle!
+Printing Cycle:
+177 183 177 
+A neighbour node of 177 is 187, and its HashValue is 4. Present in stack: 0
+It has to be pushed onto the stack, and a dfs has to be conducted
+A neighbour node of 187 is 183, and its HashValue is 3. Present in stack: 0
+It has to be pushed onto the stack, and a dfs has to be conducted
+A neighbour node of 183 is 187, and its HashValue is 4. Present in stack: 1
+It is already present in the stack
+A neighbour node of 183 is 177, and its HashValue is 0. Present in stack: 1
+it is a cycle!
+Printing Cycle:
+177 187 183 177 
+A neighbour node of 187 is 177, and its HashValue is 0. Present in stack: 1
+it is a cycle!
+Printing Cycle:
+177 187 177 
+A neighbour node of 177 is 177, and its HashValue is 0. Present in stack: 1
+it is a cycle!
+Printing Cycle:
+177 177 
+Removing vertex 177
+---------------Iteration--------------
+Printing the current adjacencyList: 
+The current node is: 189
+The current node is: 191
+The current node is: 183
+The current node is: 187
+A neighbour node of 189 is 191, and its HashValue is 1. Present in stack: 0
+It has to be pushed onto the stack, and a dfs has to be conducted
+Removing vertex 189
+---------------Iteration--------------
+Printing the current adjacencyList: 
+The current node is: 191
+The current node is: 183
+The current node is: 187
+Removing vertex 191
+---------------Iteration--------------
+Printing the current adjacencyList: 
+The current node is: 183
+The current node is: 187
+A neighbour node of 183 is 187, and its HashValue is 1. Present in stack: 0
+It has to be pushed onto the stack, and a dfs has to be conducted
+A neighbour node of 187 is 183, and its HashValue is 0. Present in stack: 1
+it is a cycle!
+Printing Cycle:
+183 187 183 
+Removing vertex 183
+---------------Iteration--------------
+Printing the current adjacencyList: 
+The current node is: 187
+Removing vertex 187
+
+Sum of latencies at this point, and no of edges traversed: 2, 1
+Sum of latencies at this point, and no of edges traversed: 4, 2
+Sum of latencies at this point, and no of edges traversed: 11, 3
+Latency for this cycle is: 3.666667
+Sum of latencies at this point, and no of edges traversed: 2, 1
+Sum of latencies at this point, and no of edges traversed: 9, 2
+Latency for this cycle is: 4.500000
+Sum of latencies at this point, and no of edges traversed: 3, 1
+Sum of latencies at this point, and no of edges traversed: 7, 2
+Sum of latencies at this point, and no of edges traversed: 14, 3
+Latency for this cycle is: 4.666667
+Sum of latencies at this point, and no of edges traversed: 3, 1
+Sum of latencies at this point, and no of edges traversed: 10, 2
+Latency for this cycle is: 5.000000
+Sum of latencies at this point, and no of edges traversed: 4, 1
+Sum of latencies at this point, and no of edges traversed: 7, 2
+Sum of latencies at this point, and no of edges traversed: 14, 3
+Latency for this cycle is: 4.666667
+Sum of latencies at this point, and no of edges traversed: 4, 1
+Sum of latencies at this point, and no of edges traversed: 11, 2
+Latency for this cycle is: 5.500000
+Sum of latencies at this point, and no of edges traversed: 7, 1
+Latency for this cycle is: 7.000000
+Sum of latencies at this point, and no of edges traversed: 4, 1
+Sum of latencies at this point, and no of edges traversed: 7, 2
+Latency for this cycle is: 3.500000
+
+The minimum average latency for this pipeline is: 3.500000
